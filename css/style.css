@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Playfair+Display');
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+	margin: 0;
+	color: #171717;
+}
+
+
+.ba-container {
+	max-width: 1600px;
+	height: 940px;
+	padding: 130px 100px;
+	margin: 0 auto;
+}
+.ba-willow-crest {
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	max-width: 1400px;
+	padding: 119px 130px;
+}
+.ba-title {
+	margin: 0;
+	margin-bottom: 25px;
+	font: 400 42px 'Playfair Display', serif;
+	text-align: left
+}
+
+.ba-willow-crest p {
+	margin-bottom: 50px;
+	font: 300 18px/1.8 'Lato', sans-serif;
+	text-align: left;
+	letter-spacing: 0.05em;
+
+}
+
+p.letter:first-letter {
+	font: 400 110px/0.8 'Playfair Display', serif;
+	color:  #171717;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+}
+.ba-quote {
+	font: 300 24px/1.4 'Lato', sans-serif;
+	font-style: italic;
+	color: #7b7b7b;
+	letter-spacing: 0.05em;
+}
+.ba-quote:before {
+	margin-right: 24px;
+	font-size: 60px;
+}
+.ba-quote:after {
+	content: no-close-quote;
+}
+.ba-willow-crest a {
+	display: block;
+	width: 264px;
+	height: 68px;
+	text-decoration: none;
+	font: 700 18px/1.9 'Lato', sans-serif;
+	color:  #eaa258;
+	text-align: center;
+	border: 2px solid #eaa258;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	padding-top: 15px;
+	margin-top: 40px;
+}
+
+.ba-willow-crest a:hover {
+	box-shadow: 1px 0px 14px 10px rgba(48, 50, 50, 0.82);
+}
